@@ -1,0 +1,38 @@
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 15rem;
+  text-align: center;
+  padding: 1rem;
+  border: 2px solid black;
+}
+
+td,
+th {
+  border: 1px solid #070606;
+  text-align: left;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #8a8c8f;
+  color: black;
+  font-size: 1rem;
+}

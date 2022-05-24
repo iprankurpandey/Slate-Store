@@ -1,0 +1,48 @@
+.catagory-items-page {
+  background-color: rgb(108, 170, 251);
+  width: 15rem;
+  height: 100vh;
+  padding: 0.5rem;
+  position: fixed;
+  left: 0;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+hr {
+  margin: 0.7rem;
+  border: 1px solid rgb(79, 13, 145);
+}
+input[type="checkbox"] {
+  width: 1.1rem;
+  height: 1.1rem;
+  margin: 0 0.5rem;
+  text-align: center;
+}
+
+input[type="radio"] {
+  background-color: #fff;
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 0.3rem solid black;
+  margin: 0.2rem;
+  text-align: center;
+}
+
+.filtered-card {
+  display: flex;
+}
+span.material-icons.ratingmi {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+}
+input.navigation__input {
+  width: 80%;
+  text-align: center;
+  font-weight: 600;
+  color: rebeccapurple;
+  border: none;
+}

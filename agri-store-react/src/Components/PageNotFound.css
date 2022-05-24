@@ -1,0 +1,11 @@
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  height: 50vh;
+  width: 80%;
+
+  width: auto;
+  margin-top: 4rem;
+}

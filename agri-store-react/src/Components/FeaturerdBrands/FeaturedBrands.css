@@ -1,0 +1,112 @@
+@import "https://deploy-preview-13--agri-component.netlify.app/css/components.css";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.featured-catagories {
+  font-weight: 800;
+  text-align: center;
+  margin: 3rem;
+  text-decoration: underline;
+  text-decoration-color: var(--golden-color);
+}
+
+.catagory-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 3rem;
+}
+
+.first-catagory {
+  background-image: url("https://i.ibb.co/jWQ5jYh/crop.jpg");
+}
+
+.second-catagory {
+  background-image: url("https://i.ibb.co/8dVYtJ7/vscode.png");
+}
+
+.third-catagory {
+  background-image: url("https://i.ibb.co/Zxxg78R/icons8-api-100.png");
+}
+
+.fourth-catagory {
+  background-image: url("https://i.ibb.co/tHM0CvL/dsa.png");
+}
+
+.box {
+  width: 15rem;
+  height: 15rem;
+  background-color: var(--background-universal-color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  box-shadow: 0px 0px 10px var(--dark-black-color);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.brand-choice {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.featured-brands {
+  font-weight: 800;
+  text-align: center;
+  margin: 3rem;
+  text-decoration: underline;
+  text-decoration-color: var(--golden-color);
+}
+
+.brand-logo {
+  width: 8rem;
+  height: 5rem;
+  background-color: var(--background-universal-color);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+  box-shadow: 0px 0px 10px var(--dark-black-color);
+  font-weight: bold;
+  font-style: italic;
+  color: var(--primary-alert-bgcolor);
+}
+
+.first-brand {
+  background-image: url("https://i.ibb.co/SRn0LwX/icons8-html-5-480.png");
+}
+
+.second-brand {
+  background-image: url("https://i.ibb.co/0QPYyHz/icons8-css3-480.png");
+}
+
+.third-brand {
+  background-image: url("https://i.ibb.co/ZKZrDsy/icons8-javascript-480.png");
+}
+
+.fourth-brand {
+  background-image: url("https://i.ibb.co/cbfQkCD/icons8-react-480-1.png");
+}
+
+.fifth-brand {
+  background-image: url("https://i.ibb.co/tY8G9Hs/icons8-python-480-1.png");
+}
+
+.sixth-brand {
+  background-image: url("https://i.ibb.co/88Lb364/icons8-git-480.png");
+}
+
+.featured-products {
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+}

@@ -1,0 +1,17 @@
+.data-table {
+  margin: 0;
+  padding: 1rem;
+}
+.form-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgb(84, 84, 87);
+  margin: 0 4rem 15rem 4rem;
+  color: rgb(0, 0, 0);
+  border-radius: 0.5rem;
+}
+.forms {
+  margin-left: 2rem;
+}

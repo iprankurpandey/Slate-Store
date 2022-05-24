@@ -1,0 +1,17 @@
+.Login-Form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+  border-radius: 0.3rem;
+  flex-direction: column;
+  padding: 3rem;
+  margin: 1rem;
+  height: auto;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+input {
+  margin: 1rem;
+}

@@ -1,0 +1,6 @@
+@import "https://deploy-preview-13--agri-component.netlify.app/css/components.css";
+* {
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
